@@ -1,38 +1,191 @@
-.App {
+.app{
+  background-color: #fff;
+}
+/*header*/
+.header
+{
+   background-image: url('./images/1.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 315px;
+   position: relative;
+}
+.innerDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.header h2{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 60px;
+    font-family: cursive;
+
+}
+.header h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 60px;
+    color: #fff;
+    font-family: cursive;
+}
+.fromTop{
+    padding-top: 70px;
+}
+.printerButton
+{
+    margin-left: 60px;
+    border-radius: 12px;
+    padding: 5px;
+    font-family: initial;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*Navs*/
+
+.area
+{
+    height: 70px;
+    background-color: #ddd;
+}
+a:first-child
+{
+    color: red;
+}
+a
+{
+    font-size: 17px;
+    color: #000;
+    font-family: 'Raleway';
+    margin-right: 21px;
+    text-decoration: none;
+    line-height: 70px;
+    font-family: cursive;
+}
+a:hover
+{
+    color: red;
+    transition-delay: 0.25s;
+}
+
+/*Who am I*/
+h1{
+  color: #000;
+  font-size: 27px;
+  margin-top: 40px;
+  font-family: cursive;
+  margin-bottom: 20px;
+
+}
+.wrap{
+  display: inline-block;
+  border-bottom: 2px solid red;
+  height: 33px;
+}
+h1 span{
+  font-family: cursive;
+  display: inline-block;
+
+}
+h3{
+  font-size: 18px;
+  color: #000;
+  margin-left: 100px;
+  font-family: cursive;
+  margin-left: 0px;
+}
+.organize{
+  color: red;
+  margin-top: -5px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+p{
+  font-size: 15px;
+  font-family: cursive;
+}
+button{
+  border: none;
+  background-color: #fff;
+  border: 1px solid red;
+  padding: 10px;
+  font-family: cursive;
+}
+button:hover{
+  background-color: red;
+  color: #fff;
+}
+
+/*personalInfo*/
+p{
+  display: inline-block;
+
+}
+mark{
+  background-color: #fff;
+  font-family: cursive;
+  font-size: 14px;
+}
+
+/*Expertise*/
+
+div h2{
+  margin-left: 0px;
+  color: #000;
+  font-size: 20px;
+  display: inline-block;
+
+}
+.spanMe,hr{
+  margin-left: 30px;
+}
+
+/*Resume*/
+/* .MainOrganize{
+  color: red;
+  margin-top: -5px;
+} */
+
+/* .styleMe{
+  color: red;
+} */
+.res{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.res span{
+  color: red;
 }
+/*expertise*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*education*/
+
+/*skills*/
+meter{
+    width: 250px;
+    height: 30px;
+    display: block;
+}
+  meter::-webkit-meter-optimum-value {
+  background:red;
   }
+ 
+/*Call Us*/
+
+input[type=submit]
+{
+  background-color: red;
+  color: #fff;
+  font-family: cursive;
+  border: none;
+  padding: 4px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
