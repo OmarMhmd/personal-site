@@ -13,8 +13,6 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-
-    {/* <div className="container app"> */}
      <Header/>
      <Navs/>
      <About/>
@@ -23,8 +21,6 @@ function App() {
      <Portfolio/>
      <Callus/>
      <Footer/>
-  
-   {/* </div> */}
     </>
   );
 }

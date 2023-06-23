@@ -8,13 +8,13 @@ function About()
        <div className="container">
        <div className="res"><h1><span className="res">General</span> Information</h1></div>
             <div className="row">
-            <div className="col-4">
+            <div className="col-4 col-12">
             <Who/>
             </div>
-            <div className="col-4">
+            <div className="col-4 col-12">
             <PersonalInfo/>
             </div>
-            <div className="col-4">
+            <div className="col-4 col-12">
             <Expertise/>
             </div>
         </div>
