@@ -8,10 +8,10 @@ function Portfolio()
         /* Additional background properties can be added here */
       };
     return(
-        <div className="container">
+        <div className="container"id="portfolio">
             <div className="res"><h1> <span>My</span> Portfolio</h1></div>
             <div className="row">
-            <div className="col-4 col-12">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                 <div className="frame">
                     <div className="upper"  style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundRepeat:'no-repeat',backgroundSize: '100%'}}>
                     </div>
@@ -23,7 +23,7 @@ function Portfolio()
                 </div>
             </div>
 
-            <div className="col-4 col-12">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                 <div className="frame">
                     <div className="upper"  style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundRepeat:'no-repeat',backgroundSize: '100%'}}>
                     </div>
@@ -34,7 +34,7 @@ function Portfolio()
                     </div>
                 </div>
             </div>
-            <div className="col-4 col-12">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                 <div className="frame">
                     <div className="upper"  style={{ backgroundImage: `url(${MyBackgroundImage})`,backgroundRepeat:'no-repeat',backgroundSize: '100%'}}>
                     </div>

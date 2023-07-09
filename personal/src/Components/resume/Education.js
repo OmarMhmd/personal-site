@@ -5,7 +5,7 @@ function Education()
     return(
         <>
      
-        <h1><span className="wrap">E</span>ducation</h1>
+        <h1 className=" text-md-start text-sm-start text-start"><span className="wrap">E</span>ducation</h1>
     <div>
         <h3 className="styleMe">2018-2022</h3>
         <span>Full Stack Web Developer</span>

@@ -1,7 +1,10 @@
 import { AiFillAmazonCircle, AiOutlinePrinter, IconName } from "react-icons/ai";
+import Navs from "../navs/Navs";
 
 function Header()
 {
+
+
     return(
         <div className="header">
          <div className="innerDiv">

@@ -1,18 +1,33 @@
-import { Link } from "react-router-dom"
+
 function Navs()
 {
+    let mystyle = {
+        color: "white",
+        backgroundColor: "DodgerBlue",
+        padding: "10px",
+        fontFamily: "Arial"
+      };
+
+    var my;
+    window.addEventListener('scroll',()=>{
+        if(window.pageYOffset>=500)
+        {
+            document.getElementsByClassName("area2")[0].style.position = "fixed";
+            // <Navs/>
+        }
+    })
+
     return(
         <>
-        <div className="area">
+        <div className="area area2" style={mystyle}>
             <div className="container">
                 <div className="row">
                     <div className="col-12 ">
-                        <Link to="/about">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/about">Resume</Link>
-                        <Link to="/about">Portfolio</Link>
-                        <Link to="/about">Blog</Link>
-                        <Link to="/about">Contact</Link>
+                        <a href="/">Home</a>
+                        <a href="#generalInformation">About</a>
+                        <a href="#resume">Resume</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
